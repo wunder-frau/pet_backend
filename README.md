@@ -13,17 +13,17 @@
 ### **📚 Week 1: Introduction and Fundamentals (Oct 7 - Oct 13)**
 
 #### **Monday, Oct 7**
-- [] **Course Introduction**
-  - [ ] Watch the **"Welcome to Full Stack Open"** video.
-  - [ ] Read the **"About this course"** section on [Full Stack Open](https://fullstackopen.com/en/).
+- [x] **Course Introduction**
+  - [x] Watch the **"Welcome to Full Stack Open"** video.
+  - [x] Read the **"About this course"** section on [Full Stack Open](https://fullstackopen.com/en/).
 - [ ] **Set Up Development Environment**
-  - [ ] Install **Node.js** (LTS version recommended).
-  - [ ] Install **Visual Studio Code** or your preferred IDE.
-  - [ ] Set up **Git** and configure your GitHub account.
-  - [ ] Clone the [Full Stack Open GitHub repository](https://github.com/fullstack-hy2020/fullstackopen).
-- [ ] **Read Part 0: Introduction to the Course**
-  - [ ] Complete all introductory readings and understand the course structure.
-  - [ ] Familiarize yourself with the [course syllabus](https://fullstackopen.com/en/syllabus).
+  - [x] Install **Node.js** (LTS version recommended).
+  - [x] Install **Visual Studio Code** or your preferred IDE.
+  - [x] Set up **Git** and configure your GitHub account.
+  - [x] Clone the [Full Stack Open GitHub repository](https://github.com/fullstack-hy2020/fullstackopen).
+- [x] **Read Part 0: Introduction to the Course**
+  - [x] Complete all introductory readings and understand the course structure.
+  - [x] Familiarize yourself with the [course syllabus](https://fullstackopen.com/en/syllabus).
 
 #### **Tuesday, Oct 8**
 - [ ] **Start Part 1: Introduction to React**
