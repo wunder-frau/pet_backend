@@ -16,7 +16,7 @@
 - [x] **Course Introduction**
   - [x] Watch the **"Welcome to Full Stack Open"** video.
   - [x] Read the **"About this course"** section on [Full Stack Open](https://fullstackopen.com/en/).
-- [ ] **Set Up Development Environment**
+- [x] **Set Up Development Environment**
   - [x] Install **Node.js** (LTS version recommended).
   - [x] Install **Visual Studio Code** or your preferred IDE.
   - [x] Set up **Git** and configure your GitHub account.
@@ -26,24 +26,24 @@
   - [x] Familiarize yourself with the [course syllabus](https://fullstackopen.com/en/syllabus).
 
 #### **Tuesday, Oct 8**
-- [ ] **Start Part 1: Introduction to React**
-  - [ ] Read **"Introduction to React"** section.
-  - [ ] Complete the **React Basics tutorial**:
-    - [ ] Understanding JSX
-    - [ ] Rendering elements to the DOM
-- [ ] **Hands-On Coding**
-  - [ ] Create a simple React application using `create-react-app`.
-  - [ ] Modify the default app to display "Hello, Full Stack Open!"
+- [x] **Start Part 1: Introduction to React**
+  - [x] Read **"Introduction to React"** section.
+  - [x] Complete the **React Basics tutorial**:
+    - [x] Understanding JSX
+    - [x] Rendering elements to the DOM
+- [x] **Hands-On Coding**
+  - [x] Create a simple React application using `create-react-app`.
+  - [x] Modify the default app to display "Hello, Full Stack Open!"
 
 #### **Wednesday, Oct 9**
-- [ ] **React Components and Props**
-  - [ ] Read **"React Components and Props"** section.
-  - [ ] Watch related lecture videos on React components.
-- [ ] **Hands-On Coding**
-  - [ ] Build multiple functional components (e.g., Header, Content, Footer).
-  - [ ] Pass props between components to display dynamic content.
-- [ ] **Assignment 1.1**
-  - [ ] Complete the first assignment on [Building a simple React application](https://fullstackopen.com/en/part1).
+- [x] **React Components and Props**
+  - [x] Read **"React Components and Props"** section.
+  - [x] Watch related lecture videos on React components.
+- [x] **Hands-On Coding**
+  - [x] Build multiple functional components (e.g., Header, Content, Footer).
+  - [x] Pass props between components to display dynamic content.
+- [x] **Assignment 1.1**
+  - [x] Complete the first assignment on [Building a simple React application](https://fullstackopen.com/en/part1).
 
 #### **Thursday, Oct 10**
 - [ ] **State and Lifecycle**
