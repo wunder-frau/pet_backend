@@ -10,6 +10,12 @@ const rateLimit = require("express-rate-limit");
 const cardsRouter = require("./routes/cards");
 const userRouter = require("./routes/users");
 const notFoundErrorRouter = require("./routes/notFoundError");
+const { createUserValid, loginValid } = require("./middlewares/validation");
+
+const { login, createUser } = require("./controllers/users");
+const { requestLogger, errorLogger } = require("./middlewares/logger");
+const auth = require("./middlewares/auth");
+const errorsHandler = require("./middlewares/errorsHandler");
 
 const app = express();
 require("dotenv").config();
@@ -60,7 +66,7 @@ app.use(limiter);
 
 app.get("/crash-test", () => {
   setTimeout(() => {
-    throw new Error("Сервер сейчас упадёт");
+    throw new Error("The server is about to crash");
   }, 0);
 });
 
@@ -80,7 +86,7 @@ app.use(errors());
 
 app.use(errorsHandler);
 
-app.listen(PORT, "0.0.0.0", () => {
+app.listen(PORT, () => {
   // eslint-disable-next-line no-console
   console.log(`App listening on port ${PORT}`);
 });
