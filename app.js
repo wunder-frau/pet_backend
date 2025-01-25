@@ -38,7 +38,7 @@ app.use(
   cors({
     credentials: true,
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-    origin: "http://iresta.rest",
+    origin: "https://iresta.rest",
     optionsSuccessStatus: 204,
     preflightContinue: false,
   })
