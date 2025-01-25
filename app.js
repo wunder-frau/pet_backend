@@ -32,30 +32,45 @@ mongoose.connect("mongodb://localhost:27017/mestodb", {
   useUnifiedTopology: true,
 });
 
-const allowedCors = ["http://localhost:3000", "http://localhost:4000"];
+const { PORT = 4000 } = process.env;
 
 app.use(
   cors({
-    origin: allowedCors,
     credentials: true,
+    methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+    origin: "http://iresta.rest",
+    optionsSuccessStatus: 204,
+    preflightContinue: false,
   })
 );
 
-const { PORT = 4000 } = process.env;
+// const allowedCors = [
+//   "http://localhost:3000",
+//   "http://localhost:4000",
+//   "https://iresta.rest",
+//   "http://iresta.rest",
+// ];
 
-app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "http://localhost:3000");
-  res.header("Access-Control-Allow-Headers", "*");
-  res.header(
-    "Access-Control-Allow-Methods",
-    "GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS"
-  );
-  if (req.method === "OPTIONS") {
-    res.status(200).send();
-    return;
-  }
-  next();
-});
+// app.use(
+//   cors({
+//     origin: allowedCors,
+//     credentials: true,
+//   })
+// );
+
+// app.use((req, res, next) => {
+//   res.header("Access-Control-Allow-Origin", "http://localhost:3000");
+//   res.header("Access-Control-Allow-Headers", "*");
+//   res.header(
+//     "Access-Control-Allow-Methods",
+//     "GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS"
+//   );
+//   if (req.method === "OPTIONS") {
+//     res.status(200).send();
+//     return;
+//   }
+//   next();
+// });
 
 app.use(helmet());
 app.use(cookieParser());
