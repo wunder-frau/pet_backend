@@ -85,9 +85,9 @@ app.get("/crash-test", () => {
   }, 0);
 });
 
-app.post("api/signin", loginValid, login);
+app.post("/api/signin", loginValid, login);
 
-app.post("api/signup", createUserValid, createUser);
+app.post("/api/signup", createUserValid, createUser);
 
 app.use(auth);
 app.use("/", cardsRouter);
