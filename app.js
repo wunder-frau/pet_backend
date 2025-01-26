@@ -90,8 +90,8 @@ app.post("/api/signin", loginValid, login);
 app.post("/api/signup", createUserValid, createUser);
 
 app.use(auth);
-app.use("/", cardsRouter);
-app.use("/", userRouter);
+app.use("/api", cardsRouter);
+app.use("/api", userRouter);
 
 app.all("*", notFoundErrorRouter);
 app.disable("x-powered-by");
