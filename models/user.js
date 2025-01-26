@@ -7,18 +7,18 @@ const userSchema = new mongoose.Schema({
     type: String,
     minlength: 2,
     maxlength: 30,
-    default: "Jacques-Yves Cousteau",
+    default: "Sugar Kane",
   },
   about: {
     type: String,
     minlength: 2,
     maxlength: 30,
-    default: "Oceanographer",
+    default: "Ukulele player",
   },
   avatar: {
     type: String,
     default:
-      "https://pictures.s3.yandex.net/resources/jacques-cousteau_1604399756.png",
+      "https://images.saymedia-content.com/.image/t_share/MTk3OTkzOTE0MDA2MjUxMjkz/best-10-violet-costumes-dresses-in-modern-movies.png",
     validate: {
       validator(avatar) {
         return validator.isURL(avatar);
