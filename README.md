@@ -5,7 +5,7 @@ QuickPic is a responsive photo-sharing platform with **secure authentication** a
 ## 🔗 Links
 
 - **Live Demo:** [QuickPic](https://iresta.rest/sign-in)
-- **Backend Repository:** [GitHub - Backend](https://github.com/wunder-frau/pet_backend)
+- **Frontend Repository:** [GitHub - Frontend](https://github.com/wunder-frau/pet_frontend)
 
 ## 🛠️ Tech Stack
 
